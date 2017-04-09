@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bridges of the World</title>
+</head>
+
+<body>
+  <h1>Welcome to Bridges of the World</h1>
+  <p>
+    According to Wikipedia a <b>bridge</b> is a structure built to span physical obstacles for the purpose of providing passage over the obstacle, without closing or hindering the physical obstacle. Designs of bridges vary depending on the following:
+    <ul>
+      <li>the function of the bridge</li> 
+      <li>the nature of the terrain where the bridge is constructed and anchored</li> 
+      <li>the material used to make it</li> 
+      <li>the funds available to build it</li>
+    </ul>
+  </p> 
+  <h2>Types of Bridges</h2>
+    <ol>
+      <li>Beam bridges</li>
+      <li>Truss bridges</li>
+      <li>Cantilever bridge</li>
+      <li>Arch bridge</li>
+      <li>Tied arch bridge</li>
+      <li>Suspension bridge</li>
+      <li>Cable-stayed bridge</li>
+    </ol>
+  <h2>Examples of Bridges</h2>
+  <ol>
+    <li>
+      <h3>Golden Gate Bridge</h3>
+      <p>The Golden Gate Bridge in San Francisco is a suspension bridge</p>
+      <img src="bridge_images/Goldengate_sf.jpg" alt="Golden Gate Bridge"/>
+    </li>
+    <li>
+      <h3>Brooklyn Bridge</h3>
+      <p>The Brooklyn Bridge in New York City is a cable-stayed bridge</p>
+      <img src="bridge_images/Brooklyn_nyc.jpg" alt="Brooklyn Bridge"/>
+    </li>
+    <li>
+      <h3>Bandra Worli Sealink</h3>
+      <p>The Bandra Worli Sealink in Mumbai is another cable-stayed bridge</p>
+      <img src="bridge_images/Sealink_mbai.jpg" alt="Bandra Worli Sealink"/>
+    </li>
+    <li>
+      <h3>Coronation Bridge</h3>
+      <p>The Coronation Bridge in Siliguri is an arch bridge</p>
+      <img src="bridge_images/Coronation_siliguri.jpg" alt="Coronation Bridge"/>
+    </li>
+    <li>
+      <h3>Slussenomradet Bridges</h3>
+      <p>The Slussenomradet Bridges in Stockholm are a group of beam bridges</p>
+      <img src="bridge_images/Bridges_stkhm.jpg" alt="Slussenomradet"/>
+    </li>
+  </ol>
+  <h4> These are just 5 of the tens of thousands of bridges around the world. To see some of the most impressive bridges from around the world, <a href="http://www.popularmechanics.com/technology/infrastructure/g2383/the-worlds-most-impressive-bridges/">please click here</a>
+  </h4>
+  <p><b>NOTE: </b>The aforementioned website is a nicely laid out, clean and readable website built using a number of familiar and unfamiliar HTML tags. Familiar tags seen on the source code are form, p, div, h, ul, li, title and a tags. The unfamiliar ones are script (calls on Javascript), span (groups and styles inline elements) and path (gives relative path of a file). Most unfamiliar are the attributes like class, id and target used with all of the familiar and unfamiliar tags.</p>
+
+  <p>We hope you enjoyed viewing these bridges from afar. Enter your details below to stay updated on your favorite bridge.</p>
+  <form name="fav_bridge" action="bridge_choice.html" method="post">
+    <fieldset>
+      <div>
+        <label>Full Name:</label>
+        <input type="text" name="full_name">
+      </div>
+      <div>
+        <label>Email Address:</label>
+        <input type="email" name="email">
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label>Favorite Bridge:</label>
+        <select name="bridge">
+          <option value="goldengate">Golden Gate Bridge</option>
+          <option value="brooklyn">Brooklyn Bridge</option>
+          <option value="bwsl">Bandra Worli Sealink</option>
+          <option value="coronation">Coronation Bridge</option>
+          <option value="slussen">Slussenomradet</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" name="cb_agree" value="agree">
+        I want to receive information about other bridges too
+      </div>
+    </fieldset>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
