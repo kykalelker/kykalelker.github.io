@@ -18,12 +18,30 @@ section.opening {
   text-align: center;
 }
 
+h2{
+  font-size: 180%;
+}
+
 div.list {
   display:inline-block;
   vertical-align: text-top;
   width: 300px;
   padding: 5px;
   margin: 10px 80px;
+}
 
- 
+article{
+  display: inline-block;
+  width: 175px;
+  border: 1px solid rgb(124, 97, 122);
+  padding: 10px;
+  margin: 5px;
+}
+
+#info_form{
+display: block;
+text-align: center;
+border: 1px solid rgb(124, 97, 122);
+  margin: 20px;
+  padding: 10px 20px 20px 20px;
 }
