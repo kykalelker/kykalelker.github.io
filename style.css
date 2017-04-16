@@ -1,3 +1,29 @@
 body {
-  background:rgb(223, 209, 211);
+  display: block;
+  margin: 0 auto;
+  max-width: 960px;
+  background:rgb(223, 216, 215);
+  color:rgb(124, 97, 122);
+  }
+section.opening {
+  display: block;
+ margin: auto;
+ font-size: 120%;
+
+}
+#welcome {
+  font-weight: bold;
+  font-size: 300%;
+  text-decoration: underline;
+  text-align: center;
+}
+
+div.list {
+  display:inline-block;
+  vertical-align: text-top;
+  width: 300px;
+  padding: 5px;
+  margin: 10px 80px;
+
+ 
 }
