@@ -4,6 +4,7 @@ body {
   max-width: 960px;
   background:rgb(223, 216, 215);
   color:rgb(124, 97, 122);
+  font-family: georgia;
 
   }
 section.opening {
@@ -15,7 +16,7 @@ section.opening {
 }
 #welcome {
   font-weight: bold;
-  font-size: 300%;
+  font-size: 250%;
   text-decoration: underline;
   text-align: center;
  
@@ -41,6 +42,7 @@ article{
   border: 1px solid rgb(124, 97, 122);
   padding: 10px;
   margin: 5px;
+  font-family: arial;
 }
 
 #info_form{
