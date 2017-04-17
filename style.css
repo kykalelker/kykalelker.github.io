@@ -7,6 +7,14 @@ body {
   font-family: georgia;
 
   }
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(124, 97, 122);
+    color:rgb(223, 216, 215);
+  }
+}
+ 
+}
 section.opening {
   display: block;
   margin: auto;
