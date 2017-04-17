@@ -12,7 +12,6 @@ body {
     color:rgb(223, 216, 215);
   }
 }
-}
 section.opening {
   display: block;
   margin: 0 auto;
@@ -24,7 +23,7 @@ section.opening {
   text-decoration: underline;
   text-align: center;
 }
-h2{
+h2 {
   font-size: 180%;
 }
 div.list {
@@ -35,29 +34,25 @@ div.list {
   margin: 10px 80px;
   z-index: 10;
 }
-
 .extra_info {
   position:relative;
-padding: 0;}
-
+padding: 0;
+}
 li.brimages {
 display: inline-block;
 width:375px;
 vertical-align: text-top;
 }
-
 #brooklyn {
 display: inline-block;
 width:260px;
 vertical-align: text-top;
 }
-
 #sidebar {
     position:absolute;
     top:0; bottom:0; right:0;
     background-color: rgb(200, 165, 140)
 }
-
 article{
   display: inline-block;
   width: 175px;
