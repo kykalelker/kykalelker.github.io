@@ -35,18 +35,30 @@ div.list {
   margin: 10px 80px;
   z-index: 10;
 }
-a:visited {color: green;}
-a:hover {color: hotpink;}
-a:active {color: red;}
+
+.extra_info {
+  position:relative;
+padding: 0;}
+
+#sidebar {
+    position:absolute;
+    top:0; bottom:0; right:0;
+    background-color: rgb(200, 165, 140)
+}
 
 article{
   display: inline-block;
-  width: 175px;
+  width: 200px;
+  height: 650px;
   border: 1px solid rgb(124, 97, 122);
   padding: 10px;
   margin: 5px;
   font-family: arial;
 }
+a:visited {color: green;}
+a:hover {color: hotpink;}
+a:active {color: red;}
+
 #info_form{
 display: block;
 text-align: center;
